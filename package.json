@@ -1,14 +1,14 @@
 {
-  "name": "cancherosback",
+  "name": "el_veinticinco_backend",
   "version": "1.0.0",
-  "description": "Backend para la aplicación Cancheros",
+  "description": "Backend rent fiels soccer app",
   "type": "module",
   "main": "index.js",
   "scripts": {
     "start": "node index",
     "dev": "node --env-file .env --watch index.js"
   },
-  "authors": "Paula Cabana, Jose Ignacio Ledesma,Joaquin Albornoz Bresla,Maximiliano Guerrero,Pablo Germán Jiménez",
+  "authors": "Pablo Germán Jiménez",
   "license": "ISC",
   "keywords": [
     "rutas",
