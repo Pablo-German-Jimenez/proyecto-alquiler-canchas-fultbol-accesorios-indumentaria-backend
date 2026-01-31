@@ -1,48 +1,64 @@
-# ⚽ Cancheros Backend
+This is the backend for the **El Veinticinco** application, a platform designed for managing soccer field rentals and selling sports equipment and apparel.
 
-Este es el backend de la aplicación **Cancheros**, una plataforma diseñada para la gestión de alquiler de canchas de fútbol, venta de accesorios e indumentaria deportiva.
-
-La API está construida con **Node.js** y **Express**, siguiendo una arquitectura de capas (MVC) para garantizar escalabilidad y mantenimiento.
+The API is built with **Node.js** and **Express**, following a layered architecture (MVC) to ensure scalability and maintainability.
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## 🛠️ Technologies Used
 
 * **Runtime:** [Node.js](https://nodejs.org/)
 * **Framework:** [Express.js](https://expressjs.com/)
-* **Base de Datos:** MongoDB (vía Mongoose)
-* **Validaciones:** Express-validator
-* **Seguridad:** JSON Web Tokens (JWT) y Bcryptjs para encriptación de claves.
-* **Variables de Entorno:** Dotenv
+* **Database:** MongoDB (via Mongoose)
+* **Validations:** Express-validator
+* **Security:** JSON Web Tokens (JWT) and Bcryptjs for key encryption.
+
+* **Environment Variables:** Dotenv
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
+* `src/controllers`: Business logic for products, bookings, and users.
 
-* `src/controllers`: Lógica de negocio para productos, reservas y usuarios.
-* `src/models`: Definición de los esquemas de datos (Mongoose).
-* `src/routes`: Definición de los endpoints de la API.
-* `src/helpers`: Funciones de utilidad y validaciones personalizadas.
-* `src/server`: Configuración del servidor y conexión a la base de datos.
-* `public`: Archivos estáticos y subida de imágenes.
+* `src/models`: Definition of data schemas (Mongoose).
 
+* `src/routes`: Definition of API endpoints.
+
+* `src/helpers`: Utility functions and custom validations.
+
+* `src/server`: Server configuration and database connection.
+
+* `public`: Static files and image uploads.
 ---
 
-## 🚀 Instalación y Configuración
+## 🚀 Installation and Configuration
 
-1. **Clonar el repositorio:**
-   ```bash
-   git clone [https://github.com/pablo-german-jimenez/proyecto-alquier-canchas-futbol-accesorios-indumentaria-backend.git](https://github.com/pablo-german-jimenez/proyecto-alquier-canchas-futbol-accesorios-indumentaria-backend.git)
-   cd cancherosback
+1. **Clone the repository:**
 
-   
+## 📌 Cómo ejecutar el proyecto
+
+```bash
+ # 1. Open you terminal
+  
+ # 2.  Clone repository
+git clone: https://github.com/TaliCabana/cancherosfront.git
+
+# 3. Enter project
+cd cancherosfront
+
+# 4. Install dependencies
+npm install
+
+# 5. Execute developer server
+npm run dev
+```
+
 ✨ Author
 Created by Pablo Germán Jiménez
 Design inspired by 💥 hip-hop vibes from Bboy Linkin
-Access to profile GitHub💻
-Access to profile Linkedin📊
+###### [Access to profile GitHub](https://github.com/Pablo-German-Jimenez)💻
+###### [Access to profile Linkedin](https://www.linkedin.com/in/pablo-german-jimenez-0b706a200/)📊
 💥 Breaker-boy forever🎵
 
- ![🔥#Bboys on fire 🎵 ](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG11M2dtOHdnYWUxN3N6NTFoZ2t5Z24xcmV5djJjcjI4ODlyZ3duZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ANFZtmUiXncuUmKMwY/giphy.gif)
+![🔥#Bboys on fire 🎵 ](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG11M2dtOHdnYWUxN3N6NTFoZ2t5Z24xcmV5djJjcjI4ODlyZ3duZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ANFZtmUiXncuUmKMwY/giphy.gif)
 ---
