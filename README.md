@@ -41,7 +41,7 @@ The API is built with **Node.js** and **Express**, following a layered architect
  # 1. Open you terminal
   
  # 2.  Clone repository
-git clone: https://github.com/TaliCabana/cancherosfront.git](https://github.com/Pablo-German-Jimenez/proyecto-alquiler-canchas-el-veinticinco-front-end/
+git clone https://github.com/Pablo-German-Jimenez/proyecto-alquiler-canchas-fultbol-accesorios-indumentaria-backend
 
 # 3. Enter project
 cd cancherosfront
